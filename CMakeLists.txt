@@ -24,8 +24,8 @@ set(OPENVR_VERSION "${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_BUILD}")
 # Setup some options.
 option(BUILD_SHARED "Builds the library as shared library" OFF)
 option(BUILD_FRAMEWORK "Builds the library as an apple Framework" OFF)
-option(BUILD_UNIVERSAL "Builds the shared or framework as a universal (fat, 32- & 64-bit) binary" ON)
-option(BUILD_OSX_I386 "Builds the shared or framework as a 32-bit binary, even on a 64-bit platform" OFF)
+option(BUILD_UNIVERSAL "Builds the shared or framework as a universal (fat, 32- & 64-bit) binary" OFF)
+option(BUILD_OSX_I386 "Builds the shared or framework as a 32-bit binary, even on a 64-bit platform" ON)
 option(USE_LIBCXX "Uses libc++ instead of libstdc++" ON)
 option(USE_CUSTOM_LIBCXX "Uses a custom libc++" OFF)
 
